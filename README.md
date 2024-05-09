@@ -16,11 +16,16 @@ This repository documents the configuration of the Mount Emu OGN repeater in Nor
 
 ## SOFTWARE
 [Seb OGN image](http://download.glidernet.org/seb-ogn-rpi-image)
+
 [RUFUS](https://rufus.ie/en/) Bootable image writer. RUFUS is small, portable and works well.
+
 [PuTTY](https://putty.org/) Windows SSH access to Pi (or Linux terminal).
+
 [Global Monitoring Laboratory Sunrise/Sunset table](https://gml.noaa.gov/grad/solcalc/table.php?lat=-36.67152&lon=147.21922&year=2024) set lat & lon to your location. The year makes insignificant differences.
+
 [Witt Pi script gen](http://www.uugear.com/app/wittypi-scriptgen/) to check &/or create your monthly scripts.
-Script and .wpi files for Witty Pi scheduling in Software folder.
+
+Script and .wpi files for Witty Pi scheduling (in Software folder.)
 
 ## Initial setup
 Use RUFUS to write the Seb OGN image to SD card.

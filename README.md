@@ -5,10 +5,25 @@ This repository documents the configuration of the Mount Emu OGN repeater in Nor
 
 **_CURENT STATUS:_** Under construction.
 
+## Description
+
+The receiver is a fairly normal setup - Pi, SDR, pre-amp & antenna. In order to make the unit self contained I have added a solar panel, battery, charge controller, 5v power supply and a Pi Hat that manages automated power on/off of the Pi according to user defined schedules - the Witty Pi 4 Mini.
+
+The unit is mounted on a 100 x 100mm RHS tower with a carriage that is hoisted up & down by hand. This manual hoisting significantly limits the maximum weight of the unit.
+
+In order to minimise the size of the battery but retain a reasonable ability to remain functional through overcast periods I want the unit to completely shut down overnight. The Witty Pi has it's own real time clock (RTC), battery backup and the ability to shutdown the Pi, then cut the power to it. When the next scheduled start time arrives the Witty powers up the Pi (and USB connected peripherals) again. I have written 12 schedule files, starting the unit at 9am each day and turning it off at Sunset using a rounded Sunset time in the middle of each month - a few minutes either way doesn't matter. The current month's schedule file is loaded to the Witty at every startup, this could be probably be reduced to just being loaded on say the first day of the month.
+
+The size of the panel and battery were roughly calculated so:
+* The battery will pretty much fully charge in one sunny day even in winter, whilst also supplying power to the receiver.
+* The panel should be able to output roughly half the receiver's demand even on a low overcast day.
+* The battery can run the receiver (with input from the panel) for about two days if it is fully overcast.
+
+I hope to be able to use a PAYG 4G plan. I've read reports that the units send approximately 2Mb of data each day. At 6c/Mb this equates to around $50 / year. We'll see. Otherwise a $120 annual pre-paid plan will provide ample data.
+
 ## HARDWARE
 * Raspberry Pi 3B
 * RTL-SDR V3
-* LNA4All preamp,bias-T powered
+* LNA4All preamp, Bias-T powered
 * 9dbi antenna
 * Huawei E3372 608 4G modem
 * Witty Pi 4 Mini Pi power manager

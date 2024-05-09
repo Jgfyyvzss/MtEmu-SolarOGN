@@ -2,6 +2,7 @@
 Configuration of solar powered OGN receiver.
 
 This repository documents the configuration of the Mount Emu OGN repeater in North East Victoria, Australia. This unit is stand-alone with solar/battery power and 4G internet access.
+
 **_CURENT STATUS:_** Under construction.
 
 ## HARDWARE

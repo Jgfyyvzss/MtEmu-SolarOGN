@@ -14,7 +14,7 @@ Battery - I am weight constrained by the tower arrangement so chose a 15Ah batte
 
 ### Charge controller
 Ebay MPPT controller with 2A USB outlet. Hopefully this will supply 5V to the Witty and Pi, plus manage the battery charge.
-![Ebay MPPT charge controller with USB](/Power/MPPT_Ebay.JPG)
+![Ebay MPPT charge controller with USB](/Power/MPPT_ebay.JPG)
 
 ### 5V power to USB hub. 
 I'm trying a generic fixed/adjustable 5V 3A step down power supply with an enable input. By connecting the enable to the Witty Cathode 5V it should turn on when the Pi does. There could be some difficulty getting a common ground for this because the Witty uses VOUT as ground for the Pi power.

@@ -8,7 +8,7 @@ This repository documents the configuration of the Mount Emu OGN repeater in Nor
 * RTL-SDR V3
 * LNA4All preamp,bias-T powered
 * 9dbi antenna
-* Huawei W3372 608 4G modem
+* Huawei E3372 608 4G modem
 * Witty Pi 4 Mini Pi power manager
 * 40w solar panel
 * 15Ah deep cycle SLA battery

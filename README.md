@@ -50,10 +50,15 @@ wget https://www.uugear.com/repo/WittyPi4/install.sh
 sudo sh install.sh
 ```
 `cd ~/wittpi` to the witty pi directory, then run the Witty Pi config script `./wittyPi.sh`
+
 In the config script check if the Pi time is correct (it should update from the internet if connected). You can type 3 to force it to update.
+
 It's worth setting these options at this stage. 
+
 7. Set low voltage threshold - _this should be slightly higher than any low voltage threshold set within your charge controller. Maybe 11.4V?_
+
 8. Set recovery voltage threshold - _set this high enough to avoid the power cycling on low solar days. Maybe 12.1V ? _
+
 9. Set over temperature action - _somewhat higher than the hottest daily temperature plus a small allowance. 48C ?_
 
 

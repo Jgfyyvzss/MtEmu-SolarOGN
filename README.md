@@ -23,9 +23,9 @@ This repository documents the configuration of the Mount Emu OGN repeater in Nor
 
 [Global Monitoring Laboratory Sunrise/Sunset table](https://gml.noaa.gov/grad/solcalc/table.php?lat=-36.67152&lon=147.21922&year=2024) set lat & lon to your location. The year makes insignificant differences.
 
-[Witt Pi script gen](http://www.uugear.com/app/wittypi-scriptgen/) to check &/or create your monthly scripts.
+[Witty Pi script gen](http://www.uugear.com/app/wittypi-scriptgen/) to check &/or create your monthly scripts.
 
-Script and .wpi files for Witty Pi scheduling (in Software folder.)
+Script and .wpi files for Witty Pi scheduling (in WittyPi folder.)
 
 ## Initial setup
 Use RUFUS to write the Seb OGN image to SD card.

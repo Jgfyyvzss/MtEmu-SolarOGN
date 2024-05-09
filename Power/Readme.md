@@ -18,4 +18,5 @@ Ebay MPPT controller with 2A USB outlet. Hopefully this will supply 5V to the Wi
 
 ### 5V power to USB hub. 
 I'm trying a generic fixed/adjustable 5V 3A step down power supply with an enable input. By connecting the enable to the Witty Cathode 5V it should turn on when the Pi does. There could be some difficulty getting a common ground for this because the Witty uses VOUT as ground for the Pi power.
+
 ![5V power supply with Enable](/Power/5V_with_enable.png)

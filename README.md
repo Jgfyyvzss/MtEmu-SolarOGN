@@ -32,7 +32,7 @@ I hope to be able to use a PAYG 4G plan. I've read reports that the units send a
 * 10a MPPT solar charge controller (ebay)
 
 ## SOFTWARE
-[Seb OGN image](http://download.glidernet.org/seb-ogn-rpi-image)
+[Seb OGN image](http://download.glidernet.org/seb-ogn-rpi-image) [Source](https://github.com/snip/OGN-receiver-RPI-image)
 
 [RUFUS](https://rufus.ie/en/) Bootable image writer. RUFUS is small, portable and works well.
 

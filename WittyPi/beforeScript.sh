@@ -11,4 +11,4 @@
 thismonth=$(/usr/bin/date "+%m.wpi") 
 # [ $lastupdate != $thismonth ] \
 # && /usr/bin/cp -f "$thismonth" schedule.wpi
-/usr/bin/cp -f "$thismonth" /wittyPi/schedule.wpi # use this line on OverlayFS system. Runs at every boot.
+/usr/bin/cp -f "$thismonth" /wittypi/schedule.wpi # use this line on OverlayFS system. Runs at every boot.

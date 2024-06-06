@@ -18,6 +18,7 @@ Ebay MPPT controller with 2A USB outlet. I am not using the USB outlets as 2A is
 
 ### 5V power to Witty / Pi
 An ebay 12V to 5V waterproof step down converter provides power to the Witty, and so to the Pi and RTL-SDR. Unfortunately the output is 4.97V so the Pi complains of low voltage. But it runs. I'll probbaly update it to an adjustable regulator so I can set it to Pi's preferred 5.1V
+![Ebay 12V to 5V step down](/Power/5v_usbc.jpg)
 
 ### 5V power to USB hub. 
 I'm trying a generic fixed/adjustable 5V 3A step down power supply with an enable input. By connecting the enable to the Witty VOUT 5V it should turn on when the Pi does. There could be some difficulty getting a common ground for this because the Witty uses CATHODE as ground for the Pi power not the ground from the battery or USB supplying it. The Witty already has a 0.05 ohm resistor between CATHODE & GROUND, so I'm thinking it should be OK to tie the battery and 5V power supply grounds together and put a resistor between VOUT and ENABLE provide the 1-2V signal the ENABLE pin probably requires.

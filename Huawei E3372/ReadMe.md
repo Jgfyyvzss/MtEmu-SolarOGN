@@ -19,10 +19,10 @@ Now run `sudo nano /etc/udev/rules.d/41-huawei_e3372.rules`
 
 In the editor that opens enter:
 
-```# Huawei E3372
-
-ATTR{idVendor}=="12d1", ATTR{idProduct}=="xxxx", RUN+="usb_modeswitch '/%k'" ```
-
+```
+# Huawei E3372
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="xxxx", RUN+="usb_modeswitch '/%k'" 
+```
 replace xxxx with the product code you found via lsusb.
 
 press ctrl-o to save the file, then ctrl-x to exit Nano editor.

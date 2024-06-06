@@ -11,9 +11,9 @@ First disable overlay_ctl and reboot so the changes are saved to SD card.
 
 run `lsusb' and look for a line similar to the one below
 
-`Bus 001 Device 010: ID 12d1:14dc Huawei Technologies Co., Ltd.`
+`Bus 001 Device 010: ID 12d1:14db Huawei Technologies Co., Ltd.`E353/E3131
 
-The "12d1" is the Vendor code (Huawei) the "14dc" or similar is the Product code.
+The "12d1" is the Vendor code (Huawei) the "14db" or similar is the Product code.
 
 Now run `sudo nano /etc/udev/rules.d/41-huawei_e3372.rules`
 
@@ -21,13 +21,13 @@ In the editor that opens enter:
 
 ```
 # Huawei E3372
-ATTR{idVendor}=="12d1", ATTR{idProduct}=="xxxx", RUN+="usb_modeswitch '/%k'" 
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="14db", RUN+="usb_modeswitch '/%k'" 
 ```
-replace xxxx with the product code you found via lsusb.
+replace 14db with the product code you found via lsusb if it is different.
 
 press ctrl-o to save the file, then ctrl-x to exit Nano editor.
 
-Enable overlay-ctl and reboot.
+Enable overlay-ctl and reboot. Note that this needs to be a hard reboot - power off and on again. 
 
 Hopefully the 4G dongle now connects the Pi to the internet.
 

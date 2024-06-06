@@ -31,4 +31,4 @@ Enable overlay-ctl and reboot.
 
 Hopefully the 4G dongle now connects the Pi to the internet.
 
-The Pi can't supply enough power to run the both the RTL-SDR and the E3372. I chose to add a powered USB hub with the power supplied by a small regulator that is switched on and off by the Witty, thus keeping power consumption to a minimum overnight.
+The Pi can't supply enough power to run the both the RTL-SDR and the E3372. I chose to add a powered USB hub for the Huawei with the power supplied by a small regulator that is switched on and off by the Witty, thus keeping power consumption to a minimum overnight.

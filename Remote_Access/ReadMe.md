@@ -40,4 +40,4 @@ Now SSH in to the Pi using the spr.openport.io as the address and the digits aft
 ssh pi@spr.openpoort.io -p 12345
 ```
 
-On Windows machines you'll need PuTTY, on Mac or Linux just use a shell (command prompt window) `SSH xxx@spr.openport.io:12345`
+On Windows machines you'll need PuTTY, on Mac or Linux just use a shell (command prompt window)

@@ -31,7 +31,7 @@ Openport should now restart on each boot.
 Note that the free Openport issues a new port to the service every day. So to connect to the Pi remotely you first need to 
 * login to [openport.io/user/sessions](https://openport.io/user/sessions)
 * click on the "Open-for-ip" icon for ogn-ymbt. This lets Openport know that your current IP is authorised to access the remote device.
-*Get the address of the receiver, something like spr.openport.io:12345, where the 12345 is the port currently assigned
+* Get the address of the receiver, something like spr.openport.io:12345, where the 12345 is the port currently assigned
 
 Now SSH in to the Pi using the spr.openport.io as the address and the digits after the : as the port.
 ```

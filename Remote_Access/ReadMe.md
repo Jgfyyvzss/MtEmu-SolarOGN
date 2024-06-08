@@ -25,7 +25,7 @@ In order to overcome this I've added an entry in the user crontab to run a bash 
 See openportStart.sh for the scipt.
 In the user crontab I've added
 ```
-@reboot /home/pi/openportStart.sh &
+@reboot /home/pi/openportStart.sh
 ````
 
 Openport should now restart on each boot.

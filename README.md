@@ -23,7 +23,7 @@ I hope to be able to use a PAYG 4G plan. I've read reports that the units send a
 ## HARDWARE
 * Raspberry Pi 3B
 * RTL-SDR V3
-* LNA4All preamp, Bias-T powered
+* ~~LNA4All preamp~~ Uputronics 915mhz preamp, Bias-T powered. LNA4ALL amp failed, as they seem to do, replaced with Uputronics.
 * 9dbi antenna
 * Huawei E3372 608 4G modem
 * Witty Pi 4 Mini Pi power manager

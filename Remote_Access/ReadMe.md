@@ -37,7 +37,7 @@ Note that the free Openport issues a new port to the service every day. So to co
 
 Now SSH in to the Pi using the spr.openport.io as the address and the digits after the : as the port.
 ```
-ssh pi@spr.openpoort.io -p 12345
+ssh pi@spr.openport.io -p 12345
 ```
 
 On Windows machines you'll need PuTTY, on Mac or Linux just use a shell (command prompt window)

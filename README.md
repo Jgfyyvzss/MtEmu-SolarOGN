@@ -4,6 +4,7 @@ Configuration of solar powered OGN receiver.
 This repository documents the configuration of the Mount Emu OGN repeater in North East Victoria, Australia. This unit is stand-alone with solar/battery power and 4G internet access.
 
 **_CURENT STATUS:_** Abandoned.
+
 I had continual problems with receiving a good signal - faulty aircraft FLARM giving erratic results when testing, then suspicion that the pre-amp was faulty, so I bought a new Uputronics pre-amp only to find that the center frequency of the RTL-SDR was fluctuating wildly. While trying to sort out the center frequency issue the Pi failed and will no longer start up.
 
 Enough time, money and effort wasted. Abandoned.

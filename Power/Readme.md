@@ -22,6 +22,8 @@ I'm now changing that to an XL6009 based adjustable supply, same as described be
 ![Ebay 12V to 5V step down](/Power/5v_usbc.jpg)
 
 ### 5V power to USB hub. 
-I started trying a generic fixed/adjustable 5V 3A step down power supply with an enable input. Unfortunately that had Enable low so I would have needed to build an signal inverter. The better solution is (hopefully) to change to an XL4005 based supply with Enable High. The ones delivered are XL6009 chips, but seem to be effectively the same.
+I started trying a generic fixed/adjustable 5V 3A step down power supply with an enable input. Unfortunately that had Enable low so I would have needed to build an signal inverter. 
+The better solution is (hopefully) to change to an XL6009 based power supply with Enable High, allowing the Witty provide the power on signal when it turns on the Pi each morning.
+I will need to cut a trace or leg to be able to connect the Enable pin to the Pi, as delivered they are permanently pulled high. Should be easy enough.
+
 ![XL6009E1 based supply](/Power/XL6009E1.JPG)
-![5V power supply with Enable](/Power/5V_with_enable.png)

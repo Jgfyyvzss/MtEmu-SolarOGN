@@ -23,5 +23,5 @@ I'm now changing that to an XL6009 based adjustable supply, same as described be
 
 ### 5V power to USB hub. 
 I started trying a generic fixed/adjustable 5V 3A step down power supply with an enable input. Unfortunately that had Enable low so I would have needed to build an signal inverter. The better solution is (hopefully) to change to an XL4005 based supply with Enable High. The ones delivered are XL6009 chips, but seem to be effectively the same.
-![XLxxxx based supply](/Power/s-l1600.png)
+![XL6009E1 based supply](/Power/XL6009E1.JPG)
 ![5V power supply with Enable](/Power/5V_with_enable.png)

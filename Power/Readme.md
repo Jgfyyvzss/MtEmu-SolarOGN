@@ -26,4 +26,4 @@ I started trying a generic fixed/adjustable 5V 3A step down power supply with an
 The better solution is (hopefully) to change to an XL4005 based power supply with Enable High, allowing the Witty provide the power on signal when it turns on the Pi each morning.
 I will need to cut a trace or leg to be able to connect the Enable pin to the Pi, as delivered they are permanently pulled high. Should be easy enough.
 
-![XL4005](/Power/XL4005.JPG)
+![XL4005](/Power/XL4005.jpg)
